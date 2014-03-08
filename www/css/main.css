@@ -4,6 +4,37 @@ body {
   padding-bottom: 20px;
 }
 
+.btn-success {
+  background-color: #9a403e;
+  border-color: #7b3331;
+}
+.btn-success:hover {
+  background-color: #9a403e;
+  border-color: #7b3331;
+  cursor: default;
+}
+
+#footer {
+  color: #282828;
+}
+
+a {
+  color: #3A4F5A;
+  text-decoration: underline;
+}
+.jumbotron .glyphicon {
+  margin-right: 10px;
+}
+
+a .glyphicon {
+  margin-left: 10px;
+  margin-right: 2px;
+}
+
+.link {
+  float: right;
+}
+
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .marketing,
@@ -21,7 +52,6 @@ body {
   padding-bottom: 19px;
   margin-top: 0;
   margin-bottom: 0;
-  line-height: 40px;
 }
 
 /* Custom page footer */
